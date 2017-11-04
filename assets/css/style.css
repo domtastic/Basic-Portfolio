@@ -1,0 +1,167 @@
+/* -----BASE/INDEX------ */
+
+body {
+color: #777777;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+background-image: url("topography.png");
+}
+
+.header {
+border-bottom: solid 2px #cccccc;
+background-color: #ffffff;
+height: 80px;
+}
+
+.center {
+width: 960px;
+margin: 0 auto;
+}
+
+.floatLeft {
+background-color: #4aaaa5;
+font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+float: left;
+padding: 20px;
+color: #ffffff;
+margin: 0;
+height: 40px;
+
+}
+
+.floatRight {
+float: right;
+position: relative;
+top: 30px;
+}
+
+.floatRight a {
+color: #777777;
+text-decoration: none;
+}
+
+.main {
+width: 960px;
+clear: both;
+margin: 40px auto;
+}
+
+.content {
+border: solid 1px #dddddd;
+background-color: #ffffff;
+width: 650px;
+float: left;
+}
+
+.container {
+    margin: 30px;
+}
+
+.title-1 {
+color: #4aaaa5;
+border-bottom: solid 2px #dddddd; 
+margin: 0;
+padding-bottom: 25px;
+margin-bottom: 25px;
+}
+
+.headshot {
+    float: left;
+    width: 200px;
+    margin: 0px 20px 20px 0px;
+}
+
+p { 
+padding: 0px; 
+line-height: 200%;
+}
+
+.sidebar {
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+    width: 270px;
+    float: right;
+}
+
+.title-2 {
+color: #4aaaa5;
+border-bottom: solid 1px #dddddd; 
+padding-bottom: 15px;
+margin-bottom: 15px;
+
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    height: 80px;
+    background-color: #666666;
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #dddddd;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+
+h1, h2, .label {
+
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+ }
+
+/* ------- CONTACT ME ADD-ONS  --------- */
+
+input {
+    width: 100%;
+}
+
+input::placeholder {
+    color: lightgray;
+  }
+
+.message {
+height: 200px;
+}
+
+.submit {
+    height: 40px;
+    width: 100px;
+    background-color: #4aaaa5;
+    color: #dddddd;
+}
+
+
+
+/* ------- PORTFOLIO STYLING --------- */
+
+.box {
+    float: left;
+    
+  }
+.box2, .box4 {
+    float: right;
+}
+.label {
+    position: relative;
+    bottom: 55px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+  }
+
+  .project {
+      height: 220px;
+      width: 270px;
+  }
